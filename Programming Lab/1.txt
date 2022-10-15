@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float a,b,c,t;
+    cin>>t;
+    while(t>0)
+    {
+        cin>>a;
+        cin>>b;
+        cin>>c;
+        if(((a+b)/2)>c)
+        {
+            cout<<"YES"<<endl;
+        }
+        else
+        {
+            cout<<"NO"<<endl;
+        }
+        t--;
+    }
+}
+
